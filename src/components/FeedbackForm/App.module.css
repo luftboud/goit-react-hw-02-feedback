@@ -1,0 +1,15 @@
+.app {
+    margin: 20px 40px;
+    color: antiquewhite;
+}
+.app button {
+    height: 27px;
+    font-size: 16px;
+    background-color: #d3b187;
+    border: none;
+    border-radius: 5px;
+    color: #513c22;
+}
+.app button:not(:last-child) {
+    margin-right: 7px
+}
