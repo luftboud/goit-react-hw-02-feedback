@@ -4,7 +4,7 @@ import { Statistics } from './Statistics';
 import { Section } from './Section';
 import { Notification } from './Notification';
 import css from './App.module.css'
-class FeedbackForm extends Component {
+class App extends Component {
   state = {
     good: 0,
     neutral: 0,
@@ -61,4 +61,4 @@ class FeedbackForm extends Component {
     );
   }
 }
-export { FeedbackForm };
+export { App };
