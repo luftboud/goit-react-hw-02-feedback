@@ -22,7 +22,7 @@ class FeedbackForm extends Component {
   };
   countPositiveFeedbackPercentage = (pos, neu, neg) => {
     const total = pos + neu + neg;
-    if (total == 0) {
+    if (total === 0) {
       return 0;
     }
     const positive = Math.round((pos / total) * 100);
@@ -45,7 +45,7 @@ class FeedbackForm extends Component {
           />
         </Section>
         <Section title="Statistics">
-          {totalVotes == 0 ? (
+          {totalVotes === 0 ? (
             <Notification message="There is no feedback" />
           ) : (
             <Statistics
